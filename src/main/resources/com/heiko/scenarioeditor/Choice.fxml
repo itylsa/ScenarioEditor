@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="pane" maxWidth="-Infinity" prefHeight="100.0" prefWidth="1640.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="com.heiko.scenarioeditor.ChoiceController">
+   <children>
+      <TextArea fx:id="text" maxWidth="-Infinity" prefHeight="98.0" prefWidth="1578.0" wrapText="true" />
+      <TextArea fx:id="id" layoutX="1580.0" maxWidth="-Infinity" prefHeight="98.0" prefWidth="60.0" wrapText="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="1000.0" prefWidth="1800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.heiko.scenarioeditor.WindowController">
+   <children>
+      <HBox fx:id="hBox" alignment="CENTER" prefHeight="65.0" prefWidth="1800.0">
+         <children>
+            <Button fx:id="saveButton" mnemonicParsing="false" onAction="#chooseSavePath" text="Save path" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <VBox fx:id="vBox" alignment="CENTER" prefHeight="70.0" prefWidth="70.0">
+               <children>
+                  <Label text="Scenarios:">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label" text="Label">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+         </children>
+      </HBox>
+      <ScrollPane fx:id="scroller" hbarPolicy="NEVER" layoutY="66.0" prefHeight="935.0" prefWidth="1660.0" AnchorPane.bottomAnchor="70.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="66.0">
+         <content>
+            <VBox fx:id="box" alignment="TOP_CENTER" maxWidth="-Infinity" prefHeight="863.0" prefWidth="1640.0" spacing="5.0" />
+         </content>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </ScrollPane>
+      <HBox fx:id="hBox2" layoutY="958.0" prefHeight="70.0" prefWidth="1800.0">
+         <children>
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+         </children>
+      </HBox>
+      <VBox fx:id="vBox1" layoutY="66.0" prefHeight="892.0" prefWidth="70.0">
+         <children>
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+         </children>
+      </VBox>
+      <VBox fx:id="vBox2" layoutX="1730.0" layoutY="66.0" prefHeight="892.0" prefWidth="70.0">
+         <children>
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+            <Pane prefHeight="70.0" prefWidth="70.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
